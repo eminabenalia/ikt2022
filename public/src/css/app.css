@@ -1,7 +1,32 @@
+:root{
+  --main-color: #48b9cf;
+}
+
+body{
+  background-color: var(--main-color);
+}
+
+.color-primary{
+  color: black;
+}
+
+.jobs-title{
+  padding: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+.background-white{
+  background-color: white;
+}
+
 .text-center {
   text-align: center;
 }
 
 .drawer-option {
   padding: 16px;
+}
+
+.enable-notifications {
+  display: none;
 }

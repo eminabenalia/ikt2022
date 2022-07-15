@@ -1,7 +1,7 @@
 {
-  "name": "IKT-PWA-01",
+  "name": "IKT-PWA",
   "version": "1.0.0",
-  "description": "Grundgerüst einer PWA",
+  "description": "Nachbarnschaft PWA",
   "main": "index.js",
   "scripts": {
     "start": "http-server -c-1"
@@ -15,12 +15,9 @@
     "htw",
     "fiw"
   ],
-  "author": "J. freiheit",
+  "author": "?",
   "license": "ISC",
   "devDependencies": {
     "http-server": "^14.1.0"
-  },
-  "dependencies": {
-    "pwa-asset-generator": "^6.1.1"
   }
 }
