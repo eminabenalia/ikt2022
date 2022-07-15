@@ -8,7 +8,7 @@ Voraussetzung zum Ausführen des Projektes ist die vorherige Installation von [N
 
 Umgesetzt wurde das Projekt in der IDE "Studio Visual Code". Welche IDE beim Einlesen oder Bearbeiten des Codes verwenden wird, sei den Entwickler:innen überlassen.
 
-Um das Projektzu starten, gehe in den Terminal Zum Starten des Projektes wechseln Sie im Terminal (Terminal Ihres Rechners oder das Terminal in der IDE) in den Projektordner (`cd IKT-PWA-01`) und führen dort 
+Um das Projekt zu starten, gehe in den Terminal des Rechners oder das Terminal der in den Projektordner (`cd IKT-PWA-01`) und führen dort 
 
 	`npm install` 
 
