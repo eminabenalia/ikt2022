@@ -6,26 +6,21 @@ Dieses Projekt beruht auf den Vorlesungsmaterialien des Studienmoduls "Aktuelle 
 
 Voraussetzung zum Ausführen des Projektes ist die vorherige Installation von [Node.js](https://nodejs.org) auf dem Rechner.
 
-Umgesetzt wurde das Projekt in der IDE "Studio Visual Code". Welche IDE beim Einlesen oder Bearbeiten des Codes verwenden wird, sei den Entwickler:innen überlassen.
+Umgesetzt wurde das Projekt in der IDE "Studio Visual Code". Welche IDE beim Einlesen oder Bearbeiten des Codes verwenden wird, ist jedoch den Entwickler:innen überlassen.
 
-Um das Projekt zu starten, gehe in den Terminal des Rechners oder das Terminal der in den Projektordner (`cd IKT-PWA-01`) und führen dort 
+Um das Projekt zu starten und alle erforderlichen Abhängigkeiten zu installieren, gehe in den Terminal des Rechners oder das Terminal der in den Projektordner (`cd pwa-htw`) und führe dort folgenden Befehl aus_
 
 	`npm install` 
 
-	aus (es genügt auch `npm i`). Damit werden alle erforderlichen Abhängigkeiten installiert. Es entsteht der `node_modules`-Ordner. 
-
-- Nach erfolgreicher Installation der Abhängigkeiten, geben Sie  
+Um das Projekt auszuführen, gib nach der Installation den Befehl: 
 
 	`npm start` 
 
-	ein, um Ihr Projekt auszuführen (Es wird der `http-server` mit der Option `-c-1` gestartet. Diese Option disabled Caching). Klicken Sie danach auf [localhost:8080](http://localhost:8080) oder geben Sie die URL direkt in Ihren Browser ein.
+in den Terminaö ein. Wechsele dann auf [localhost:8080] bzw. gib die URL direkt in den Browser ein.
 
-- Sollten Sie Änderungen an der IMplementierung vornehmen und diese ausprobieren wollen, müssen Sie den Server zunächst wieder stoppen:
+Um das Backend zu starten, emfiehlt es sich einen weiteren Terminal aufzumachen. Gehe dann zunächst in den Ordner "backend" mit dem Befehl:
+    `cd backend` 
 
-	`Ctrl-C`
+Der Befehl zum Starten des Backends lautet:
+    `npm run watch` 
 
-	und geben dann erneut 
-
-	`npm start` 
-
-	ein. 
